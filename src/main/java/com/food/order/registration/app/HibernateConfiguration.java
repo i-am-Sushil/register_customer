@@ -17,10 +17,10 @@ public class HibernateConfiguration {
     @Value("com.mysql.cj.jdbc.Driver")
     private String DB_DRIVER;
 
-    @Value("jdbc:mysql://13.233.214.243:3306/ms")
+    @Value("jdbc:mysql://ip-172-31-26-48:3306/ms")
     private String DB_URL;
 
-    @Value("root")
+    @Value("user")
     private String DB_USERNAME;
     
     @Value("pass")
